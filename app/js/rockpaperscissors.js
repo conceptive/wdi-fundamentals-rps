@@ -22,7 +22,7 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
-    while (!move) { 
+    while (!move) {
         move = getInput();
     }
     return move;
