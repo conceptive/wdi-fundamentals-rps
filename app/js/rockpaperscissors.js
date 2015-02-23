@@ -47,7 +47,7 @@ function getWinner(playerMove,computerMove) {
 
 function playToFive() {
     console.log("Let's play Rock, Paper, Scissors");
-        var scores = {player: 0, computer: 0,tie: 0};
+        var wins = {player: 0, computer: 0,tie: 0};
     while (playerWins < 5 && computerWins < 5) {
         var playerMove   = getPlayerMove();
         var computerMove = getComputerMove();
